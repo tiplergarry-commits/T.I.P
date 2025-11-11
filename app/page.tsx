@@ -7,9 +7,9 @@ const Page = () => {
       {/* Header */}
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
         <div className="logo text-4xl mb-6" style={{ fontFamily: '"Oswald", sans-serif', letterSpacing: '1px' }}>
-          <span className="font-light text-gray-300">Tenacious.</span>
+          <span className="font-light text-gray-400">Tenacious.</span>
           <span className="font-medium text-white">Individual.</span>
-          <span className="font-bold text-yellow-400">Performance</span>
+          <span className="font-bold" style={{ color: '#ffb703' }}>Performance</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-8 text-lg">
           <a href="https://codepen.io/Garry-Tipler/pen/MYKXaqr" target="_blank" className="text-white hover:text-yellow-400 transition-colors font-medium">Home</a>
