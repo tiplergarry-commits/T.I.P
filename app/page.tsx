@@ -6,7 +6,7 @@ const Page = () => {
 
       {/* Header */}
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
-        <div className="logo text-4xl mb-6" style={{ fontFamily: '"Oswald", sans-serif', letterSpacing: '1px' }}>
+        <div className="logo text-4xl mb-6" style={{ fontFamily: '"Barlow Condensed", sans-serif', letterSpacing: '1px' }}>
           <span className="font-extralight text-gray-400">Tenacious.</span>
           <span className="font-medium text-white">Individual.</span>
           <span className="font-bold" style={{ color: '#ffb703' }}>Performance</span>
@@ -46,7 +46,7 @@ const Page = () => {
             className="mx-auto w-32 rounded-full hover:scale-105 transition-transform my-8"
           />
 
-          <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 mt-8" style={{ fontFamily: '"Oswald", sans-serif' }}>
+          <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 mt-8" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
             Hobbies:
           </h2>
           <ul className="list-disc list-inside space-y-2 text-lg text-gray-700">
@@ -62,7 +62,7 @@ const Page = () => {
           <button
             id="smileBtn"
             className="mt-6 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition-all hover:-translate-y-1 shadow-md"
-            style={{ fontFamily: '"Oswald", sans-serif', letterSpacing: '0.5px' }}
+            style={{ fontFamily: '"Barlow Condensed", sans-serif', letterSpacing: '0.5px' }}
             onClick={() => alert("Smile!!! 😄")}
           >
             Click Me!
@@ -70,7 +70,7 @@ const Page = () => {
 
           {/* Sections */}
           <section id="workouts" className="mt-12">
-            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
               Workouts
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
@@ -80,7 +80,7 @@ const Page = () => {
           </section>
 
           <section id="recipes" className="mt-12">
-            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
               Recipes
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
@@ -90,7 +90,7 @@ const Page = () => {
           </section>
 
           <section id="lifestyle" className="mt-12">
-            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
               Lifestyle
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
@@ -100,7 +100,7 @@ const Page = () => {
           </section>
 
           <section id="philosophy" className="mt-12">
-            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
               Philosophy
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
