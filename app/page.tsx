@@ -1,3 +1,5 @@
+"use client";
+
 const Page = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -21,8 +23,6 @@ const Page = () => {
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-16 space-y-8">
-
-        {/* About Me */}
         <section id="home" className="text-center">
           <h2 className="text-3xl font-semibold mb-6">About Me</h2>
           <p className="text-lg">
@@ -40,7 +40,6 @@ const Page = () => {
           />
         </section>
 
-        {/* Hobbies */}
         <section className="text-center">
           <h2 className="text-3xl font-semibold mb-4">Hobbies</h2>
           <ul className="flex flex-wrap justify-center gap-4 text-lg">
@@ -60,30 +59,25 @@ const Page = () => {
           </button>
         </section>
 
-        {/* Workouts */}
         <section id="workouts" className="text-center">
           <h2 className="text-3xl font-semibold mb-4">Workouts</h2>
           <p>Explore strength, conditioning, and mobility sessions designed to build consistency and balance. Focus on steady progress — not perfection.</p>
         </section>
 
-        {/* Recipes */}
         <section id="recipes" className="text-center">
           <h2 className="text-3xl font-semibold mb-4">Recipes</h2>
           <p>Simple, nourishing meals that don’t require fancy ingredients. Fuel your body, feed your curiosity, and enjoy every bite.</p>
         </section>
 
-        {/* Lifestyle */}
         <section id="lifestyle" className="text-center">
           <h2 className="text-3xl font-semibold mb-4">Lifestyle</h2>
           <p>Thoughts on routines, creativity, habits, and staying grounded. Balance is more than rest days — it’s about showing up for yourself daily.</p>
         </section>
 
-        {/* Philosophy */}
         <section id="philosophy" className="text-center">
           <h2 className="text-3xl font-semibold mb-4">Philosophy</h2>
           <p>I want a place to share ideas openly — not to impress but to express. Simple, intentional, and authentic.</p>
         </section>
-
       </main>
 
       {/* Footer */}
@@ -97,5 +91,3 @@ const Page = () => {
 };
 
 export default Page;
-
-
