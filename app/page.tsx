@@ -8,7 +8,7 @@ const Page = () => {
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
         <div className="logo text-4xl mb-6" style={{ fontFamily: '"Barlow Condensed", sans-serif', letterSpacing: '1px' }}>
           <span className="font-extralight text-gray-400">Tenacious.</span>
-          <span className="font-medium text-white">Individual.</span>
+          <span className="font-semibold text-white">Individual.</span>
           <span className="font-bold" style={{ color: '#ffb703' }}>Performance</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-8 text-lg">
