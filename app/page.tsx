@@ -7,7 +7,7 @@ const Page = () => {
       {/* Header */}
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
         <div className="logo text-4xl mb-6" style={{ fontFamily: '"Oswald", sans-serif', letterSpacing: '1px' }}>
-          <span className="font-light text-gray-400">Tenacious.</span>
+          <span className="font-extralight text-gray-400">Tenacious.</span>
           <span className="font-medium text-white">Individual.</span>
           <span className="font-bold" style={{ color: '#ffb703' }}>Performance</span>
         </div>
