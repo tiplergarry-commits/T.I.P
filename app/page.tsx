@@ -49,7 +49,7 @@ const Page = () => {
           <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 mt-8" style={{ fontFamily: '"Barlow Condensed", sans-serif' }}>
             Hobbies:
           </h2>
-          <ul className="list-disc list-inside space-y-2 text-lg text-gray-700">
+          <ul className="list-disc list-inside space-y-2 text-lg" style={{ color: '#1f1e1e' }}>
             <li>Cooking</li>
             <li>Gaming</li>
             <li>Traveling</li>
