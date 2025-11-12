@@ -12,7 +12,7 @@ const Page = () => {
       {/* Header */}
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
         <div
-          className="logo text-4xl mb-6"
+          className="logo text-4xl mb-4 sm:mb-6 text-center"
           style={{
             fontFamily: '"Barlow Condensed", sans-serif',
             letterSpacing: "1px",
@@ -22,7 +22,7 @@ const Page = () => {
           <span style={{ fontWeight: 500, color: "#f0f0f0" }}>Individual.</span>
           <span style={{ fontWeight: 700, color: "#ffb703" }}>Performance</span>
         </div>
-        <nav className="flex flex-wrap justify-center gap-8 text-lg">
+        <nav className="flex flex-wrap justify-center gap-6 text-base sm:gap-8 sm:text-lg text-center">
           <a
             href="https://codepen.io/Garry-Tipler/pen/MYKXaqr"
             target="_blank"
@@ -62,8 +62,8 @@ const Page = () => {
       </header>
 
       {/* Main content */}
-      <main className="content max-w-4xl mx-auto px-6 py-16">
-        <div className="bg-white rounded-lg shadow-md p-10 space-y-6">
+      <main className="content max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-16">
+        <div className="bg-white rounded-lg shadow-md p-6 sm:p-10 space-y-6">
           <p className="text-lg leading-relaxed text-gray-700">
             Hi, I'm Garry Tipler (Tip) — someone who finds joy in creativity,
             curiosity, training, and making things that matter. I spend a lot of
@@ -89,18 +89,18 @@ const Page = () => {
           <img
             src="https://cdn-icons-png.freepik.com/256/16455/16455167.png"
             alt="Garry Tipler avatar icon"
-            className="mx-auto w-32 rounded-full hover:scale-105 transition-transform my-8"
+            className="mx-auto w-24 sm:w-32 rounded-full hover:scale-105 transition-transform my-8"
           />
 
           {/* Short quote */}
-          <blockquote className="text-center italic text-xl text-gray-800 mt-6">
+          <blockquote className="text-center italic text-lg sm:text-xl text-gray-800 mt-6">
             “Consistency beats intensity. Keep showing up.”
           </blockquote>
 
           {/* Sections */}
-          <section id="workouts" className="mt-12">
+          <section id="workouts" className="mt-10 sm:mt-12">
             <h2
-              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4"
+              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left"
               style={{ fontFamily: '"Barlow Condensed", sans-serif' }}
             >
               Workouts
@@ -112,9 +112,9 @@ const Page = () => {
             </p>
           </section>
 
-          <section id="recipes" className="mt-12">
+          <section id="recipes" className="mt-10 sm:mt-12">
             <h2
-              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4"
+              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left"
               style={{ fontFamily: '"Barlow Condensed", sans-serif' }}
             >
               Recipes
@@ -126,9 +126,9 @@ const Page = () => {
             </p>
           </section>
 
-          <section id="lifestyle" className="mt-12">
+          <section id="lifestyle" className="mt-10 sm:mt-12">
             <h2
-              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4"
+              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left"
               style={{ fontFamily: '"Barlow Condensed", sans-serif' }}
             >
               Lifestyle
@@ -140,9 +140,9 @@ const Page = () => {
             </p>
           </section>
 
-          <section id="philosophy" className="mt-12">
+          <section id="philosophy" className="mt-10 sm:mt-12">
             <h2
-              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4"
+              className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left"
               style={{ fontFamily: '"Barlow Condensed", sans-serif' }}
             >
               Philosophy
@@ -157,7 +157,7 @@ const Page = () => {
       </main>
 
       {/* Footer */}
-      <footer className="text-center py-6 bg-black text-white mt-12">
+      <footer className="text-center py-6 bg-black text-white mt-12 text-sm sm:text-base">
         © 2025 Garry Tipler — Built with curiosity and coffee ☕
       </footer>
     </div>
