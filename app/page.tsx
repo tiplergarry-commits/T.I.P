@@ -2,7 +2,10 @@
 
 const Page = () => {
   return (
-    <div className="min-h-screen bg-[--beige] text-gray-900 font-barlowCondensed scroll-smooth">
+    <div
+      className="min-h-screen text-gray-900 scroll-smooth"
+      style={{ backgroundColor: "#f5f5dc", fontFamily: '"Barlow Condensed", sans-serif' }}
+    >
       {/* Header */}
       <header className="bg-black text-white shadow-md py-8 px-4 flex flex-col items-center">
         <div className="logo text-4xl mb-4 sm:mb-6 text-center tracking-wide">
@@ -33,18 +36,15 @@ const Page = () => {
       {/* Main Content */}
       <main id="home" className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <article className="bg-white rounded-lg shadow-md p-6 sm:p-8 space-y-6">
-          {/* Dummy comment to trigger Vercel rebuild */}
-          {/* rebuild-trigger */}
-
-          <p className="section-text mt-4">
+          <p className="text-lg leading-relaxed text-gray-700 mt-4">
             Hi, I'm <strong>Garry Tipler (Tip)</strong> — someone who finds joy in creativity, curiosity, training, and making things that matter. I spend a lot of my time exploring ideas, whether through photography, coding, or getting lost in thought during a walk.
           </p>
 
-          <p className="section-text">
+          <p className="text-lg leading-relaxed text-gray-700">
             I enjoy mixing creativity with hands-on work. Photography helps me slow down and notice details I might otherwise miss. Coding is a puzzle I get to build from scratch — it keeps me sharp and curious.
           </p>
 
-          <p className="section-text">
+          <p className="text-lg leading-relaxed text-gray-700">
             At my core, I value honesty, generosity, curiosity, integrity, service, love, and staying grounded. I try to live intentionally — learning from everything, being kind, and staying true to what feels right. This page is a small reflection of that.
           </p>
 
@@ -54,29 +54,37 @@ const Page = () => {
 
           {/* Sections */}
           <section id="workouts" className="mt-6 sm:mt-8">
-            <h2 className="section-title">Workouts</h2>
-            <p className="section-text">
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left">
+              Workouts
+            </h2>
+            <p className="text-lg leading-relaxed text-gray-700">
               Explore strength, conditioning, and mobility sessions designed to build consistency and balance. Whether at home or in the gym, the goal is steady progress — not perfection.
             </p>
           </section>
 
           <section id="recipes" className="mt-6 sm:mt-8">
-            <h2 className="section-title">Recipes</h2>
-            <p className="section-text">
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left">
+              Recipes
+            </h2>
+            <p className="text-lg leading-relaxed text-gray-700">
               Simple, nourishing meals that don’t require fancy ingredients. Cooking should be joyful — fuel your body, feed your curiosity, and enjoy every bite.
             </p>
           </section>
 
           <section id="lifestyle" className="mt-6 sm:mt-8">
-            <h2 className="section-title">Lifestyle</h2>
-            <p className="section-text">
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left">
+              Lifestyle
+            </h2>
+            <p className="text-lg leading-relaxed text-gray-700">
               Thoughts on routines, creativity, habits, and staying grounded. Balance is more than rest days — it’s about showing up for yourself daily.
             </p>
           </section>
 
           <section id="philosophy" className="mt-6 sm:mt-8">
-            <h2 className="section-title">Philosophy</h2>
-            <p className="section-text">
+            <h2 className="text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left">
+              Philosophy
+            </h2>
+            <p className="text-lg leading-relaxed text-gray-700">
               A space to share ideas openly — not to impress but to express. My philosophy is simple: keep learning, stay humble, and be kind.
             </p>
           </section>
