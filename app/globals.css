@@ -1,13 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500;700&display=swap");
 
+/* CSS Variables */
 :root {
   --beige: #f5f5dc;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+/* Custom classes using Tailwind @apply */
 .section-title {
   @apply text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left;
 }
