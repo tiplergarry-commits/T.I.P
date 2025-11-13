@@ -2,18 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CSS variable for beige background */
 :root {
   --beige: #f5f5dc;
-}
-
-.font-barlowCondensed {
-  font-family: "Barlow Condensed", sans-serif;
-}
-
-.section-title {
-  @apply text-2xl font-bold border-b-4 border-yellow-400 pb-2 mb-4 text-center sm:text-left;
-}
-
-.section-text {
-  @apply text-lg leading-relaxed text-gray-700;
 }
