@@ -77,5 +77,5 @@ const Page = () => {
     </div>
   );
 };
-{/* trigger rebuild */}
+// trigger rebuild 
 export default Page;
